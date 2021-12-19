@@ -1,0 +1,32 @@
+.footer{
+    background-image: url('../img/footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.footer .imgs{
+    padding-bottom: 20px;
+}
+.footer .row{
+    text-align: left;
+ 
+    color: #fff;
+}
+.footer ul{
+    list-style: none;
+    /* font-size: small; */
+
+}
+.footer ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer ul a:hover{
+    color: #89c74a;
+    text-decoration: underline;
+}
+@media (max-width:500p) {
+    .address, .call, .mail{
+        text-align: left !important;
+    }
+}

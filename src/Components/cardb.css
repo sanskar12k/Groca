@@ -1,0 +1,51 @@
+.cardb .card img{
+    width: auto !important;
+    transition: all 0.5s;
+}
+.cardb .card img:hover{
+    transform: scale(1.1);
+}
+
+.cardb span{
+   border: 0px solid transparent;
+   border-radius: 20px;
+   background-color: tomato;
+   padding: 4px 8px 4px 8px;
+}
+
+.cardb .row .col-3 {
+   background-color: #000;
+   color: #fff;
+}
+.cardb .card-title{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.cardb button{
+    text-align: left !important;
+    background-color: #89c74a;
+    border:0px solid transparent;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.cardb .card{
+    width: '18rem'
+}
+@media (max-width:500px) {
+    .cardb .card{
+        width: 19rem !important;
+    }
+    .cardb .card-title{
+        font-size: large;
+    }
+    .cardb span{
+        font-size: small;
+    }
+    .cardb .card-text{
+        font-size: medium;
+    }
+    .cardb button{
+        font-size: medium;
+        padding: 5px 15px;
+    }
+}

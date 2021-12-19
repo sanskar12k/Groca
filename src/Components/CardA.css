@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400&family=Playfair+Display&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+.design{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    right: -10px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.carda .card img{
+    width: 180px  !important;
+}
+.carda .card {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    width: '32rem'
+}
+
+.carda .card-title{
+    font-family: 'Lemonada', cursive;
+    text-align: left;
+    font-weight: bold;
+}
+.carda .card-text{
+    text-align: left;
+    line-height: 25px;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.carda .card button{
+    text-align: left !important;
+    background-color: tomato;
+    border:0px solid transparent;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+@media (max-width:500px) {
+    .carda .card{
+    width: '25rem';}
+    .carda .card-text {
+        font-size: medium;
+    }
+    .carda .card button{
+        padding: 3px 10px !important ;
+    }
+}

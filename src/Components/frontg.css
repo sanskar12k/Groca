@@ -1,0 +1,23 @@
+.frontg{
+    background-image: url('../img//bg4.jpg');
+    height: auto;
+}
+.frontg .heading{
+    font-size: 1.5rem;
+    color: #000;
+    padding-bottom: 50px;
+}
+.frontg img{
+    height: 95%;
+}
+.frontg input{
+    border: 0px solid transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+.frontg button{
+    border: 0px solid transparent;
+    border-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
+    background-color:#89c74a;
+}

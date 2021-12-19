@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+.navbar-nav{
+    justify-content: space-around !important;
+    /* flex-direction: row-reverse !important; */
+}
+.navbar-nav{
+    font-family: 'Lemonada', cursive;
+    color: #000;
+    font-weight: bold;
+}
+@media (min-width:800px) {
+    .navbar-nav{
+        margin-left: 30px !important;
+        padding-left: 10px !important;
+    }
+    .navbar-nav a{
+        margin-left: 10px !important;
+    }
+}
+@media (max-width:800px) {
+    .hidden-md{
+        display: none !important;
+    }
+    .navbar-nav-scroll{
+        height: 230px !important;
+    }
+    .row{
+        margin-right: 0 !important;
+    }
+}
+@media (max-width:500px) {
+    .hidden-sm{
+        display: none;
+    }
+}
