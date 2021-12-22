@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../Components/frontc.css";
 import { Button } from "react-bootstrap";
 const FrontC = () => {
-    const times = new Date("2021/12/22") ;
+    const times = new Date("2021/12/29") ;
 
     const [time , setTime] = useState(new Date());
     const[day, setday] = useState(Math.floor((times-time)/86400000));
